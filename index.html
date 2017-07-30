@@ -1,0 +1,18 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<script src="src/script.js"></script>
+<body>
+<div class="container">
+First Name: <input type="text" id="fname" onfocusout="checkname(this)"><br><br>
+Last Name: <input type="text" id="lname" onfocusout="checkname(this)"><br><br>
+Email: <input type="email" id="email" onfocusout="checkmail(this)"><br><br>
+Password: <input type="password" id="pwd" onfocusout="checkpassword(this)"><br><br>
+Phone No: <input type="tel" id="tel" onfocusout="checktelno(this)"><br><br>
+<input type="submit" id="button1" value="Submit" onclick="validateForm()">
+</div>
+<div id="error"></div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+div{
+	margin-top:20px;
+	background-color: #eee;
+	width: 380px;
+	margin: auto;
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 5px;
+	
+}
+body{
+	background-color: #008597;
+}
+#button1{
+	margin-left: 120px;
+	width: 100px;
+	height: 30px;
+	background-color: aqua;
+}
+#error{
+	margin: 1px solid black;
+	color: red;
+	
+}
